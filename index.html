@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Task 3 - Quiz & API</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>Simple JavaScript Quiz</h1>
+  <div class="quiz">
+    <p id="question">What is the capital of France?</p>
+    <button onclick="checkAnswer(this)">Paris</button>
+    <button onclick="checkAnswer(this)">London</button>
+    <button onclick="checkAnswer(this)">Berlin</button>
+    <button onclick="checkAnswer(this)">Madrid</button>
+    <p id="result"></p>
+  </div>
+
+  <h2>Joke of the Day (API Demo)</h2>
+  <button onclick="getJoke()">Get a Joke</button>
+  <p id="joke"></p>
+
+  <script src="script.js"></script>
+</body>
+</html>
